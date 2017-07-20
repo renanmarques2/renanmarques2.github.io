@@ -181,18 +181,18 @@
         </div>
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <form action="https://formspree.io/renan.maarques2@gmail.com" name="sentMessage" id="contactForm" method="POST">
+                <form method="POST" action="http://formspree.io/renan.maarques2@gmail.com" name="sentMessage">
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label for="email">Email</label>
-                            <input type="email" name="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor insira seu email.">
+                            <input type="email" name="email" class="form-control" placeholder="Email">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label for="message">Mensagem</label>
-                            <textarea name="message" rows="3" class="form-control" placeholder="Mensagem" id="message" required data-validation-required-message="Por favor insira uma mensagem."></textarea>
+                            <textarea name="message" rows="3" class="form-control" placeholder="Mensagem"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
@@ -201,7 +201,6 @@
                     <div class="row">
                         <div class="form-group col-xs-12">
                             <button type="submit" class="btn btn-success btn-lg"><i class="fa fa-send"></i>&nbsp; ENVIAR</button>
-
                         </div>
                     </div>
                 </form>
